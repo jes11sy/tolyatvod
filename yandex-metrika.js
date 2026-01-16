@@ -12,12 +12,12 @@
         'xn----7sbabahfk8cmuibi2aou.xn--p1ai': '106213291', // IDN для водоканал-саратов.рф
         'саратов-водоканал.рф': '106213295',
         'xn----7sbabajbq8cmufdbwou.xn--p1ai': '106213295', // IDN для саратов-водоканал.рф
-        'водоканал-тольятти.рф': '105914824', // TODO: заменить на реальный ID счетчика
-        'xn----7sbagk1akkbqhbg9cca2o3b.xn--p1ai': '105914824', // IDN для водоканал-тольятти.рф
-        'водоканал63.рф': '105914824', // TODO: заменить на реальный ID счетчика
-        'xn--63-6kcaim6bkqgb.xn--p1ai': '105914824', // IDN для водоканал63.рф
-        'тольятти-водоканал.рф': '105914824', // TODO: заменить на реальный ID счетчика
-        'xn----8sbagkvrdhsdeb2cca2o3b.xn--p1ai': '105914824' // IDN для тольятти-водоканал.рф
+        'водоканал-тольятти.рф': '106293993',
+        'xn----7sbagk1akkbqhbg9cca2o3b.xn--p1ai': '106293993', // IDN для водоканал-тольятти.рф
+        'водоканал63.рф': '106293997',
+        'xn--63-6kcaim6bkqgb.xn--p1ai': '106293997', // IDN для водоканал63.рф
+        'тольятти-водоканал.рф': '106293990',
+        'xn----8sbagkvrdhsdeb2cca2o3b.xn--p1ai': '106293990' // IDN для тольятти-водоканал.рф
     };
 
     // Получаем текущий домен
@@ -40,11 +40,11 @@
         } else if (hostname.indexOf('саратов-водоканал') !== -1 || hostname.indexOf('xn----7sbabajbq8cmufdbwou') !== -1) {
             counterId = '106213295';
         } else if (hostname.indexOf('водоканал-тольятти') !== -1 || hostname.indexOf('xn----7sbagk1akkbqhbg9cca2o3b') !== -1) {
-            counterId = '105914824'; // TODO: заменить на реальный ID счетчика
+            counterId = '106293993';
         } else if (hostname.indexOf('водоканал63') !== -1 || hostname.indexOf('xn--63-6kcaim6bkqgb') !== -1) {
-            counterId = '105914824'; // TODO: заменить на реальный ID счетчика
+            counterId = '106293997';
         } else if (hostname.indexOf('тольятти-водоканал') !== -1 || hostname.indexOf('xn----8sbagkvrdhsdeb2cca2o3b') !== -1) {
-            counterId = '105914824'; // TODO: заменить на реальный ID счетчика
+            counterId = '106293990';
         }
     }
     
